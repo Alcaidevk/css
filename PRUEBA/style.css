@@ -1,0 +1,52 @@
+body {
+  background: #939ac2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #9037d8,
+    #a83434
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ec8447,
+    #c41515
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: rgb(1, 0, 3);
+  background-repeat: repeat;
+}
+div {
+  border: 10px solid #000000;
+  background: #b42525;
+  height: 70px;
+  width: 310px;
+  padding: 10px;
+  margin: 0px 400px 40px;
+}
+h2 {
+  color: rgb(0, 0, 0);
+}
+.caja {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  background: #ffffff;
+}
+.caja2 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 100px;
+  color: #ffffff;
+  background: #ffffff;
+}
+button {
+  border: none;
+  background: #551d06;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 100px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 900ms ease;
+}

@@ -1,0 +1,9 @@
+.margin{
+    background: tomato;
+    margin: 100px 10 px 20px 200px;
+}
+
+.padding{
+    background: yellowgreen;
+    padding: 100px 10 px 20 px 200px;
+}

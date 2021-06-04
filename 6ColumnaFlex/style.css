@@ -1,0 +1,21 @@
+nav {
+  background: #e9d362;
+  background: -webkit-linear-gradient(to right, #333333, #e9d362);
+  background: linear-gradient(to right, #333333, #e9d362);
+  padding: 20px;
+}
+
+.padre {
+  display: flex;
+}
+
+.columna {
+  background: #3d7eaa;
+  background: -webkit-linear-gradient(to right, #ffe47a, #3d7eaa);
+  background: linear-gradient(to right, #ffe47a, #3d7eaa);
+  color: white;
+  padding: 20px;
+  width: 25%;
+  margin: 10px;
+}
+

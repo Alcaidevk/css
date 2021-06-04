@@ -1,0 +1,43 @@
+.nav-enlace {
+  background: #488c91;
+  border-radius: 10px;
+  color: honeydew;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.nav-enlace:hover {
+  background: #0066ff;
+  border-radius: 10px;
+  border: 5px solid #5d9ef1;
+}
+
+nav {
+  background: #4e4e4e;
+  border-radius: 7px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-boton {
+  background: #808080;
+  color: #f0fff0;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  display: none;
+  /* Con esto desaparece el boton llamado menú cuando el tamaño es mayor de 600px */
+}
+/* Con esta media query me sirve para el resposive. le estoy indicando que cuando la pantalla tenga un  maximo de 600px le cambie el color de fondo a rojo
+ */
+@media (max-width: 600px) {
+   nav {
+    background: rgb(95, 95, 95);
+    flex-direction: column;
+  }
+.nav-enlace{
+    margin: 10px 0;
+}
+.nav-boton{
+    display: inline-block;
+}
+}
